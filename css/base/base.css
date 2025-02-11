@@ -12,9 +12,21 @@ body {
   font-weight: 300;
 }
 
-.title1 {
+a {
+  color: #FAFAF5;
+}
+
+/* .title1 {
   font-family: var(--font-accent);
   font-weight: 700;
   color: var(--accent);
   font-size: 96px;
+} */
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  max-width: 1200px;
+  width: 100%;
 }
