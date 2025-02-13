@@ -20,7 +20,7 @@
   color: var(--accent);
   font-size: clamp(3rem, 1.909rem + 5.45vw, 6rem);
   letter-spacing: 0.08em;
-  line-height: 1; /* почему-то без этого рассточние становиться больше, чем на макете и на видео у Юрия; в макете значение = auto, в браузере это normal, что равно 1.2 */
+  line-height: 1;
 }
 
 .section-header p {
