@@ -8,4 +8,6 @@
 @import "./base/base.css";
 
 /* Blocks */
-@import "./blocks/header.css"
+@import "./blocks/header.css";
+@import "./blocks/section.css";
+@import "./blocks/card-trainer.css";
