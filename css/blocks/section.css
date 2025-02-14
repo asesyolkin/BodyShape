@@ -21,10 +21,12 @@
   font-size: clamp(3rem, 1.909rem + 5.45vw, 6rem);
   letter-spacing: 0.08em;
   line-height: 1;
+  white-space: pre-line;
 }
 
 .section-header p {
   line-height: 2;
+  white-space: pre-line;
 }
 
 .section-trainers-grid {
@@ -39,6 +41,13 @@
   gap: 105px 32px;
 }
 
+@media (max-width: 1200px) {
+  .section-groups-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px 32px;
+  }
+}
+
 @media (max-width: 800px) {
   .section {
     padding: 100px 0;
@@ -46,6 +55,10 @@
 
   .section-trainers-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section-groups-grid {
+    gap: 60px 32px;
   }
 }
 
@@ -64,5 +77,18 @@
 
   .section-trainers-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-groups-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .section-groups-grid {
+    grid-template-columns: 1fr;
+    gap: 60px 20px;
+    justify-items: center;
   }
 }
