@@ -5,8 +5,8 @@
   justify-content: center;
 
   background-image: image-set(
-    url("./../../img/contact-form-bg.jpg") 1x,
-    url("./../../img/contact-form-bg@2x.jpg") 2x
+    url("./../../img/contacts/contact-form-bg.jpg") 1x,
+    url("./../../img/contacts/contact-form-bg@2x.jpg") 2x
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,8 +34,8 @@
         rgba(0, 0, 0, 0.3)
       ),
       image-set(
-        url("./../../img/contact-form-bg.jpg") 1x,
-        url("./../../img/contact-form-bg@2x.jpg") 2x
+        url("./../../img/contacts/contact-form-bg.jpg") 1x,
+        url("./../../img/contacts/contact-form-bg@2x.jpg") 2x
       );
   }
 }

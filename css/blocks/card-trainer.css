@@ -2,9 +2,10 @@
   display: block;
   position: relative;
   max-width: 268px;
+
   border-radius: 20px;
-  
   overflow: hidden;
+
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -51,11 +52,12 @@
 @media (hover: none) and (pointer: coarse) {
   .card-trainer-name {
     opacity: 1;
-    top: 50%;
+    top: 82%;
   }
 
   .card-trainer::before {
     opacity: 1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000 100%);
   }
 }
 

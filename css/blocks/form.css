@@ -3,9 +3,6 @@
   gap: 30px;
 }
 
-.form-group {
-}
-
 .label {
   display: block;
   font-weight: 700;
@@ -37,7 +34,4 @@
 
 .textarea:focus {
   outline: none;
-}
-
-.button {
 }
